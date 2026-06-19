@@ -28,3 +28,28 @@ customer_support_agent/
 ├── test_agent.py
 ├── .gitignore
 └── README.md
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/customer_support_agent.git
+cd customer_support_agent
+
+Create and activate a virtual environment.
+
+Windows
+python -m venv venv
+venv\Scripts\activate
+macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+Running the Project
+
+Run the test script:
+
+python test_agent.py
